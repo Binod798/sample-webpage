@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color:  #00b8e6;   
+    padding: 10px;
+}
+
+.nav-content li{
+    display: inline;
+    list-style: none;   
+    
+}
+
+.nav-content li a{
+    text-decoration: none;
+    margin-left: 30px;
+    padding-right: 10px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.nav-content li a:hover{
+    text-decoration: underline;
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 270px;
+    height: 370px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:0 0 10px #a3a3c2;
+
+}
+
+.card-image{
+    /* background-color: aqua; */
+    height: 160px;
+    margin-bottom: 15px;
+
+  }
+  .card-image img{    
+    object-fit: cover;
+
+  }
+  .card p{
+      padding: 8px;
+      text-align: justify;
+  }
+  .card h2{
+      padding: 8px;
+  }
+
+  .card .accordion{
+      text-decoration: none;
+      margin-bottom: 15px;         
+      background-color: #ff4da6;
+      background-size: cover;
+      color: white;
+      padding: 10px 30px;
+      display: block;
+      text-align: center;
+      margin: 10px 90px;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 10px;
+    
+    
+  }
+  /* for collapse part */
+  .panel{
+      display: none;
+      overflow: hidden;
+      height: 160px;
+      box-shadow: 0 0 10px #a3a3c2;
+      border-radius: 10px;
+      margin-top: 25px;
+  }
+  .card:hover{      
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all is ease;
+  }
+  .card .accordion:hover{
+      background-color: blue;
+  }
+
+  footer {
+      background-color: black;
+      margin-top: 200px;
+    
+  }
+  footer h4{
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      font-weight: lighter;
+      font-size:large;
+      word-spacing: 5px;
+      
+      
+  }
